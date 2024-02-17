@@ -1,0 +1,106 @@
+
+*{
+  margin: 0;
+}
+body{
+  background-color: aquamarine;
+}
+p{
+  font-size: 17px;
+}
+.pl-sel,.sm-sel{
+  width: 250px;
+  margin: auto;
+  margin-top: 120px;
+  padding: 12px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+.sm-sel{
+  opacity: 0;
+}
+.pl-btn,.sm-btn{
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0 8px;
+  height: 30px;
+  width: 84px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: aqua;
+}
+.pl-btn:active,.sm-btn:active{
+  scale: 1.05;
+}
+.turns-cnt{
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 220px;
+  border-radius: 5px;
+}
+.x,.o{
+  height: 20px;
+  width: 60px;
+  margin: 0 9px;
+  padding: 6px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+@keyframes twinkle{
+  0%{background-color: aqua;opacity: 1}
+  50%{background-color: aqua; opacity: 0.4}
+  100%{background-color: aqua; opacity: 1}
+}
+table{
+  border: 2px solid tranparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td{
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  font-size: 28px;
+}
+.bt{
+  border-top: 2px solid purple;
+}
+.br{
+  border-right: 2px solid purple;
+}
+.bb{
+  border-bottom: 2px solid purple;
+}
+.bl{
+  border-left: 2px solid purple;
+}
+.res-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset{
+  width: 60px;
+  padding: 3px 6px 3px 6px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.game{
+  display: none;
+}
+.result{
+  text-align: center;
+}

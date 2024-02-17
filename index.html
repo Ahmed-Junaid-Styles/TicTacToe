@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="pl-sel">
+    <div class="sel-cnt">
+      <h1>Tic Tac Toe</h1><br>
+      <p>Select number of players for</p>
+      <p>this match</p><br><br>
+      <div class="btns">
+        <button class="one pl-btn">1 Player</button>
+        <button class="two pl-btn">2 Players</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sm-sel">
+    <div>
+      <h1>Tic Tac Toe</h1><br>
+      <p>Select one symbol from below</p>
+      <p>for this match</p><br><br>
+      <div class="btns">
+        <button class="sm1 sm-btn">Player (X)</button>
+        <button class="sm2 sm-btn">Player (O)</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="game">
+    <div class="board">
+      <div class="turns-cnt">
+      <div class="turns">
+        <span class="x">X turn</span>
+        <span class="o">O turn</span>
+      </div>
+    </div>
+ <br><br>
+  <table cellspacing=0>
+    <tr>
+      <td class="td bb br"></td>
+      <td class="td bb bl br"></td>
+      <td class="td bb bl"></td>
+    </tr>
+    <tr>
+      <td class="td bb bt br"></td>
+      <td class="td bb bt bl br"></td>
+      <td class="td bb bt bl"></td>
+    </tr>
+    <tr>
+      <td class="td bt br"></td>
+      <td class="td bt bl br"></td>
+      <td class="td bt bl"></td>
+    </tr>
+  </table><br>
+    </div>
+    <div>
+      <p class="result"></p><br>
+    </div>
+  <div class="res-btn">
+    <button class="reset">Reset</button>
+  </div>
+  </div>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
